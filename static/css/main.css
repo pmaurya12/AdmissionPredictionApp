@@ -1,0 +1,115 @@
+/* Base reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #dceefb 0%, #f3f8ff 100%);
+    color: #333;
+    min-height: 100vh;
+}
+
+/* Center content */
+.content {
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px 40px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+
+.content:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+    color: #1f4e79;
+    margin-bottom: 20px;
+}
+
+/* Form */
+.form {
+    margin-top: 20px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    transition: 0.3s;
+    outline: none;
+}
+
+input:focus, select:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.4);
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #4a90e2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #357abd;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(53, 122, 189, 0.3);
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background: #f9fbff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #d2e0f0;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background: #4a90e2;
+    color: white;
+    height: 40px;
+}
+
+td {
+    background: #fff;
+}
+
+tr:nth-child(even) td {
+    background: #f4f7fb;
+}
+
+/* Layout */
+#content {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Smooth animations */
+* {
+    transition: all 0.2s ease;
+}
